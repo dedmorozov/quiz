@@ -1,20 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <title>QUIZ</title>
-    </head>
-    <body>
-        <!-- top section -->
-        <div class="intro py-3 bg-white text-center">
-            <div class="container">
-                <h2 class="text-primary display-3 my-4">VamonosPest Quiz</h2>
-            </div>
-        </div>
 
-        <script src="quiz.js"></script>
-    </body>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Quiz</title>
+</head>
+
+<body>
+    <!-- header -->
+    <div class="intro py-3 bg-white text-center">
+        <div class="container">
+            <h2 class="text-primary display-3 my-4">VamonosPest Quiz</h2>
+        </div>
+    </div>
+
+    <!-- quiz section -->
+    <div class="quiz py bg-primary">
+        <div class="container">
+            <h2 class="my-5 text-white">Вопросики на подумать и вспомнить</h2>
+
+            <form class="quiz-form text-light">
+                <div class="my-5">
+                    <p class="lead font-weight-normal">1. Назовите столицу Австралии:</p>
+                        <div class="form-check my-2 text-white-50">
+                            <input type="radio" name="q1" value="A" checked>
+                            <label class="form-check-label">Канберра</label>
+                        </div>
+                        <div class="form-check my-2 text-white-50">
+                            <input type="radio" name="q1" value="B">
+                            <label class="form-check-label">Сидней</label>
+                        </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">2. Решите задачу 2+2*2</p>
+                        <div class="form-check my-2 text-white-50">
+                            <input type="radio" name="q2" value="A" checked>
+                            <label class="form-check-label">6</label>
+                        </div>
+                        <div class="form-check my-2 text-white-50">
+                            <input type="radio" name="q2" value="B">
+                            <label class="form-check-label">8</label>
+                        </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">3. Единица измереия силы электрического тока:</p>
+                        <div class="form-check my-2 text-white-50">
+                            <input type="radio" name="q3" value="A">
+                            <label class="form-check-label">Ватт</label>
+                        </div>
+                        <div class="form-check my-2 text-white-50">
+                            <input type="radio" name="q3" value="B" checked>
+                            <label class="form-check-label">Ампер</label>
+                        </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">4. 0.2км в дециметрах:</p>
+                        <div class="form-check my-2 text-white-50">
+                            <input type="radio" name="q4" value="A" checked>
+                            <label class="form-check-label">2000дм</label>
+                        </div>
+                        <div class="form-check my-2 text-white-50">
+                            <input type="radio" name="q4" value="B">
+                            <label class="form-check-label">20000дм</label>
+                        </div>
+                </div>
+                <div class="text-ceter">
+                    <input type="submit" class="btn btn-light">
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+    <script src="quiz.js"></script>
+</body>
+
 </html>
